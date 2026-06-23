@@ -23,4 +23,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: jcvdocker/demo-nginx:latest
+        tags: jcvdocker/demo-nginx: ${{ github.sha }}
